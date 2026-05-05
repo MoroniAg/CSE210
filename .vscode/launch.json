@@ -21,7 +21,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-week01-Exercise1",
-            "program": "${workspaceFolder}/week01/Exercise1/bin/Debug/net10.0/Exercise1.dll",
+            "program": "${workspaceFolder}/week01/Exercise1/bin/Debug/net9.0/Exercise1.dll",
             "args": [],
             "cwd": "${workspaceFolder}/week01/Exercise1",
             "console": "integratedTerminal",
