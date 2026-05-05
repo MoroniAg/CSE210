@@ -1,0 +1,16 @@
+{
+	"name": "BYU/CSE210 - C# (.NET 7) Dev Container",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:9.0-noble",
+	"forwardPorts": [],
+	"postCreateCommand": "dotnet --info",
+	"remoteUser": "vscode",
+    "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": false
+    }
+  },
+  "mounts": [
+    "source=/home/moroniaguilera/.ssh,target=/home/vscode/.ssh,type=bind"
+  ]
+}
+
