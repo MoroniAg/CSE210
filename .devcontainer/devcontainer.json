@@ -1,6 +1,6 @@
 {
 	"name": "BYU/CSE210 - C# (.NET 7) Dev Container",
-	"image": "mcr.microsoft.com/devcontainers/dotnet:9.0-noble",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:10.0-noble",
 	"forwardPorts": [],
 	"postCreateCommand": "dotnet --info",
 	"remoteUser": "vscode",
