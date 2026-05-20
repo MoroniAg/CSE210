@@ -4,6 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
+
+        // This console program is a Scripture Memorizer. It reads or manages a selected
+        // scripture and displays it to the user. Each time the user presses Enter,
+        // the program hides a random word from the scripture until the scripture is
+        // fully hidden, helping the user practice memorization. The user may type
+        // 'quit' to exit early. The program demonstrates object-oriented design via
+        // `ManageScripture` and `Scripture` helper classes.
+
         Console.WriteLine("Welcome to the Scripture Memorizer!");
         ManageScripture manageScripture = new ManageScripture();
         Scripture scripture = manageScripture.GetScripture();
