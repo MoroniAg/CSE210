@@ -38,7 +38,6 @@ class ManageScripture
         if (_scriptures.Count == 1)
         {
             Console.WriteLine("No scriptures available. Using default scripture.");
-            DefaultScripture();
         }
         Random random = new Random();
         int randomIndex = random.Next(_scriptures.Count);
