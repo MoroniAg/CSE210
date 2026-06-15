@@ -4,6 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the ExerciseTracking Project.");
+        var activities = new List<Activity>();
+
+        activities.Add(new Running(new DateTime(2022,11,3), 30, 3.0)); 
+        activities.Add(new Cycling(new DateTime(2022,11,3), 45, 12.0));
+        activities.Add(new Swimming(new DateTime(2022,11,3), 30, 40)); 
+
+        foreach (var a in activities)
+        {
+            Console.WriteLine(a.GetSummary());
+        }
     }
 }
